@@ -15,7 +15,6 @@ resource "aws_instance" "my_first_terraform" {
   tags {
     Name = "terraform-example"
   }
-
 }
 
 resource "aws_security_group" "instance" {
